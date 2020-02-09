@@ -1,0 +1,39 @@
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  color: red;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.green {
+  color: green;
+}
+
+input {
+  font-size: 2rem;
+}
+
+button {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.powered {
+  font-family: monospaces;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: monospace;
+}
