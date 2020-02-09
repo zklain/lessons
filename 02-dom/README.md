@@ -2,7 +2,7 @@
 
 #### DOM, input, strings & arrays
 
-## Tak
+## Tasks
 
 ### Names app
 
