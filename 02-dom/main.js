@@ -22,8 +22,6 @@ const arr = [12, 12, 12, 12];
 
 const res = arr.map(elem => elem ** 2);
 
-'helloo'.spl;
-
 console.log(res);
 
 const base = document.getElementsByName('base')[0].value;

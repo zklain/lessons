@@ -22,7 +22,7 @@ _ak volaco nebudes chapat, nevediet si rady, klido napis, snad to nie je moc ove
    1. input, taking a single letter, based on which oyu will filter the names.
    2. button `FILTER` , which would filter the input after clicking on it.
    3. output => an unordered list containing the filtered names.
-   4. The filter will be case insensitive (i.e. it does not metter, if the input is `'K'` or `'k`, it will return both `kasik` abd `Kasik`)
+   4. It will be case insensitive (i.e. it does not metter, if the input is `'K'` or `'k`, it will return both `kasik` and `Kasik`)
 
 2. **Create a counter for these names**
 
@@ -30,7 +30,7 @@ _ak volaco nebudes chapat, nevediet si rady, klido napis, snad to nie je moc ove
 
 3. **BONUS: Find a name**
 
-   1. Create an interface for checking, if the names array includes an inputed name, if so, show this name, and its position (index) in the names array. The positions shoudl be indexed from 1, not zero.
+   1. Create an interface wich would allow you to find a name, if the names array includes the given name, show this name, and its position (index) in the names array. The positions shoudl be indexed from 1, not zero.
       i.e. checking for `Dada Patrasova` in the input of `['Leos Mares, Dada Patrasova, Miro Zbirka']`, should return `Dada Patrasova, 2`
 
 ## List of methods you may find helpful
