@@ -17,9 +17,9 @@ butt.addEventListener("click", () => {
   // create array
   let namesArr = names.split(",");
   // remove white space (spaces, tabs....)
-  let formated = names.map(n => n.trim());
+  let formated = namesArr.map(n => n.trim());
   // filter
   let filtered = formated.filter(n => n !== "dada patrasova");
   // set content of the output
-  output.innerHTML = formated;
+  output.innerHTML = filtered;
 });
