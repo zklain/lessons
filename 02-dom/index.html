@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--  Meta  -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css" />
-    <script type="application/javascript" defer src="./main.js"></script>
+    <title>Names!</title>
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <!-- <h1 class="nadpis" id="heading">Nadpis</h1>
+    <h1>Names</h1>
 
-    <button id="makeGreen">Make Green</button>
-    <button id="makeRed">Make Red</button> -->
+    <input
+      type="text"
+      name="names"
+      id="names-input"
+      value="franta kasik, dada patrasova"
+    />
+    <button id="butt">Click!</button>
 
-    <div class="powered">
-      <h1>Make squered</h1>
-      <input type="number" name="base" id="" value="0" />
-      <input type="number" name="power" id="" value="0" />
-      <button id="powered" onclick="funkce()">Powered</button>
+    <p id="output"></p>
+    <!--
 
-      <input type="text" id="names" />
-      <p id="result">=</p>
-      <button id="names" onclick="funkce()">Powered</button>
-    </div>
+    Wow! What do you want to build?
 
-    <script>
-      const funkce = () => {
-        const names = document.getElementById('names').value;
-        console.log(names);
-        const splitted = names.split(',');
-        const noSpace = splitted.map(s => s.trim());
-        console.log(splitted);
-        console.log(noSpace);
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
 
-        const filtered = noSpace.filter(s => s.charAt(0) === 'a');
-        console.log(filtered);
-      };
-    </script>
+    <!-- Scripts -->
+    <script src="main.js"></script>
   </body>
 </html>
